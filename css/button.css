@@ -46,10 +46,10 @@ button {
   z-index: 2;
 }
 .button-pulse .button__wrapper:hover .pulsing:before {
-  animation: pulsing 0.2s linear infinite;
+  animation: pulsing 0.4s linear infinite;
 }
 .button-pulse .button__wrapper:hover .pulsing:after {
-  animation: pulsing1 0.2s linear infinite;
+  animation: pulsing1 0.4s linear infinite;
 }
 .pulsing {
   width: 99%;
