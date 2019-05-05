@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Say Something Smart</title>
+    <meta description="Are you having trouble understanding tech-savvy dialogues but you dont want to be excluded? Worry not! Hollywood-grade technical talk is one simple buttonclick away whenever you need to look smart!">
+    <!-- ADD TO USE RESPONSIVE DESIGN -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <!-- FAVICON LINK -->
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
+    <!-- ICON DISPLAYED WHEN ADDED TO HOMESCREEN -->
+    <!-- see here: https://webdesign.tutsplus.com/articles/quick-tip-give-your-website-an-ios-home-screen-icon--webdesign-10067 -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.png">
+    <!-- IMPORT STYLESHEET -->
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/button.css">
+  </head>
+  <body>
+    <div class="container-main">
+      <img id="img-logo" src="/images/hacker.jpeg" alt="">
+      <br>
+      <div class="main-content">
+        <div class="item button-pulse" style="--bg-color: black;">
+          <div class="button__wrapper">
+            <div class="pulsing"></div>
+            <button>sound smart</button>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+
+
+
+      <!-- <form action="/buttonclick" method="post">
+        <input type="submit" value="GO">
+      </form> -->
+
+      <!-- <button action="/buttonclick" method="post">GO</button> -->
+      <p><%= @sentence %></p>
+
+      <div class="footer">
+        <p>
+          powered by <a href="https://github.com/stympy/faker" target="_blank">Faker</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

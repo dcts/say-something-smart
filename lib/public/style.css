@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*, body {
+  margin: 0 auto;
+  background-color: #191919;
+  color: white;
+}
+
+p {
+  font-family: Rubik, sans-serif;
+}
+
+h1 {
+  font-family: Roboto, sans-serif;
+}
+
+.container-main {
+  width: 100vw;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.container-main * {
+  text-align: center;
+}
+
+#img-logo {
+  width: 50%;
+  /*text-align: center;*/
+  display:block;
+  margin:auto;
+}
+
+input {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: grey;
+  border-radius: 5px;
+}
