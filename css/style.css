@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-
-
-body {
+*, body {
   margin: 0 auto;
   background-color: #191919;
-  /*border: 10px solid blue;*/
-}/*
-.container-main {
-}*/
+  color: white;
+}
+
+p {
+  font-family: Rubik, sans-serif;
+}
+
+h1 {
+  font-family: Roboto, sans-serif;
+}
 .grid-container {
   margin: 0 auto;
   width: 100%;
@@ -15,15 +21,18 @@ body {
   grid-template-columns: auto;
 }
 .grid-item {
-  background-color: red;
+  background-color: #191919;
   padding: 0 !important;
   margin: 0 !important;
   text-align: center;
 }
-
-
 #img-hacker {
-  width: 100%;
+  width: 80%;
   /*height: 50vh;*/
   /*background-size: cover;*/
+}
+#smart-phrase {
+  padding: 50px 20px;
+  font-size: 25px;
+  line-height: 1.6;
 }

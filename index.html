@@ -19,33 +19,31 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/button.css">
   </head>
+
   <body>
-
-    <!-- <script>
-      var randomName = faker.name.findName(); // Caitlyn Kerluke
-      var randomEmail = faker.internet.email(); // Rusty@arne.info
-      var randomCard = faker.helpers.createCard(); // random contact card containing many properties
-    </script>  -->
-
     <div class="container-main">
       <div class="grid-container">
-
+        <!-- LOGO -->
         <div class="grid-item">
-          <!-- <div id="img-hacker"style="background-image: url('css/images/hacker.jpeg')">
-
-          </div> -->
           <img id="img-hacker" src="css/images/hacker.jpeg" alt="">
         </div>
-
+        <!-- BUTTON -->
         <div class="grid-item">
-          <button onclick="generatePhrase();">SOUND SMART</button>
+          <div class="btn-container">
+            <div class="item button-pulse" style="--bg-color: black;">
+              <div class="button__wrapper">
+                <div class="pulsing"></div>
+                <button onclick="generatePhrase();">sound smart</button>
+              </div>
+            </div>
+          </div>
         </div>
-
+        <!-- SMART PHRASE -->
         <div class="grid-item">
           <p id="smart-phrase"></p>
         </div>
       </div>
-
+    </div>
     <!-- LOAD JS FUNCTIONS -->
     <script src = "js/faker.min.js" type = "text/javascript"></script>
     <script src = "js/generatePhrase.js" type = "text/javascript"></script>
