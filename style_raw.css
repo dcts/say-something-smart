@@ -1,0 +1,28 @@
+body {
+  margin: 0 auto;
+}
+
+.container-main {
+  border: 10px solid blue;
+
+}
+.grid-container {
+  margin: 0 auto;
+  /*background-color: green;*/
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid green;
+  display: grid;
+  grid-template-columns: auto;
+  padding-top: 20px;
+}
+#img-hacker {
+  width: 100%;
+}
+.grid-item {
+  background-color: red;
+  border: black 1px solid;
+  /*padding: 20px;*/
+  /*font-size: 30px;*/
+  text-align: center;
+}

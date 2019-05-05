@@ -1,13 +1,13 @@
-body {
+/*body {
   color: #fff;
   font-family: "Rubik", sans-serif;
 }
-
+*/
 *:before, *:after {
   content: "";
   position: absolute;
 }
-.main-content {
+.btn-container {
   display: grid;
   width: 500px;
   margin: 0 auto;

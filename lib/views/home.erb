@@ -20,34 +20,42 @@
     <link rel="stylesheet" href="/button.css">
   </head>
   <body>
-    <div class="container-main">
-      <img id="img-logo" src="/images/hacker.jpeg" alt="">
-      <br>
-      <div class="main-content">
-        <div class="item button-pulse" style="--bg-color: black;">
-          <div class="button__wrapper">
-            <div class="pulsing"></div>
-            <button>sound smart</button>
+
+
+    </div>
+
+    <!-- <div class="container-main">
+      <div class="grid-container">
+        <grid class="grid-item">
+          <img id="img-logo" src="/images/hacker.jpeg" alt="">
+        </grid>
+        <grid class="grid-item">
+          <div class="btn-container">
+            <div class="item button-pulse" style="--bg-color: black;">
+              <div class="button__wrapper">
+                <div class="pulsing"></div>
+                <button>sound smart</button>
+              </div>
+            </div>
           </div>
-        </div>
+        </grid>
+        <grid class="grid-item">
+          <p><%= @sentence %></p>
+        </grid>
+        <grid class="grid-item">
+          <p>
+            powered by <a href="https://github.com/stympy/faker" target="_blank">Faker</a>
+          </p>
+        </grid>
       </div>
-      <br>
-      <br>
-
-
+    </div>-->
 
       <!-- <form action="/buttonclick" method="post">
         <input type="submit" value="GO">
       </form> -->
 
       <!-- <button action="/buttonclick" method="post">GO</button> -->
-      <p><%= @sentence %></p>
 
-      <div class="footer">
-        <p>
-          powered by <a href="https://github.com/stympy/faker" target="_blank">Faker</a>
-        </p>
-      </div>
-    </div>
+
   </body>
 </html>

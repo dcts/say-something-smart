@@ -16,21 +16,16 @@ h1 {
 }
 
 .container-main {
-  width: 100vw;
-  max-width: 500px;
   margin: 0 auto;
-  padding: 10px;
-}
+  border: solid red 10px;
 
-.container-main * {
-  text-align: center;
+  /*width: 80vw;*/
+  /*max-width: 500px;*/
+  /*padding: 10px;*/
 }
 
 #img-logo {
-  width: 50%;
-  /*text-align: center;*/
-  display:block;
-  margin:auto;
+  width: 300px;
 }
 
 input {
@@ -39,4 +34,19 @@ input {
   border: none;
   background-color: grey;
   border-radius: 5px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: red;
+  /*padding: 10px;*/
+}
+.grid-item {
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  border: 1px solid green;
+  /*padding: 20px;*/
+  /*font-size: 30px;*/
+  text-align: center;
+  width: 100%;
 }

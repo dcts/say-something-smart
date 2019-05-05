@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Say Something Smart</title>
+    <meta description="Are you having trouble understanding tech-savvy dialogues but you dont want to be excluded? Worry not! Hollywood-grade technical talk is one simple buttonclick away whenever you need to look smart!">
+    <!-- ADD TO USE RESPONSIVE DESIGN -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <!-- FAVICON LINK -->
+    <!-- <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/> -->
+    <!-- ICON DISPLAYED WHEN ADDED TO HOMESCREEN -->
+    <!-- see here: https://webdesign.tutsplus.com/articles/quick-tip-give-your-website-an-ios-home-screen-icon--webdesign-10067 -->
+    <!-- <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.png"> -->
+    <!-- IMPORT STYLESHEET -->
+    <link rel="stylesheet" href="style_raw.css">
+    <link rel="stylesheet" href="button_raw.css">
+    <!-- <link rel="stylesheet" href="button_raw.css"> -->
+  </head>
+  <body>
+
+    <script src = "faker.js" type = "text/javascript"></script>
+    <script src = "generatePhrase.js" type = "text/javascript"></script>
+    <!-- <script>
+      var randomName = faker.name.findName(); // Caitlyn Kerluke
+      var randomEmail = faker.internet.email(); // Rusty@arne.info
+      var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+    </script>  -->
+
+    <div class="container-main">
+      <div class="grid-container">
+        <div class="grid-item">
+          <img id="img-hacker" src="lib/public/images/hacker.jpeg" alt="">
+          <p></p>
+        </div>
+        <div class="grid-item">
+          <p>TEST</p>
+          <button onclick="generatePhrase();">CLICK ME</button>
+        </div>
+        <div class="grid-item">
+          <p class="smart-phrase"></p>
+        </div>
+      </div>
+    </body>
+</html>
