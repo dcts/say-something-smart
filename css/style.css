@@ -35,4 +35,14 @@ h1 {
   padding: 50px 20px;
   font-size: 25px;
   line-height: 1.6;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
 }
