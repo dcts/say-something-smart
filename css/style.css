@@ -1,0 +1,29 @@
+
+
+
+body {
+  margin: 0 auto;
+  background-color: #191919;
+  /*border: 10px solid blue;*/
+}/*
+.container-main {
+}*/
+.grid-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+  grid-template-columns: auto;
+}
+.grid-item {
+  background-color: red;
+  padding: 0 !important;
+  margin: 0 !important;
+  text-align: center;
+}
+
+
+#img-hacker {
+  width: 100%;
+  /*height: 50vh;*/
+  /*background-size: cover;*/
+}
