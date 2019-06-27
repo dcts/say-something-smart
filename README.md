@@ -1,8 +1,11 @@
+<img src="https://user-images.githubusercontent.com/44790691/60265141-455a7680-98e5-11e9-985e-0a6eb19499d4.png" height="300">
+
 # Say Something Smart
+
 
 Are you having trouble understanding tech-savvy dialogues but you dont want to be excluded? Worry not! Hollywood-grade technical talk is one simple buttonclick away whenever you need to look smart!
 
-[TRY IT !](#)
+[TRY IT !](http://SaySomethingSmart.com)
 
 ### how it works
 - build for learning purpose during coding bootcamp @ [LE WAGON](https://www.lewagon.com/)
